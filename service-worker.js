@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/artist-cover/precache-manifest.d88ee230b6dcf1332efac2caebf78594.js"
+  "/artist-taplink/precache-manifest.d09f23c9fe59bbb2cf1ba2964c3ea56f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/artist-cover/index.html", {
+workbox.routing.registerNavigationRoute("/artist-taplink/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
